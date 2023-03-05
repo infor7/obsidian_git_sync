@@ -1,5 +1,6 @@
 # Quickstart
 Put folder sync in root of your obsidian repo that folder structure will look like that
+```
 .
 ├── README.md
 ├── cooking
@@ -12,6 +13,8 @@ Put folder sync in root of your obsidian repo that folder structure will look li
     ├── Makefile
     ├── requirements.txt
     └── sync.py
+```
+
 
 ```
 sudo apt update
