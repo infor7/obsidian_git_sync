@@ -25,7 +25,7 @@ make sync
 ```
 
 # Autosync
-Add execution of script to your favourite scheduler e.g. cron, windows task scheduler etc. Remember to add HOME env variable, without it git command will fail
+Add execution of script to your favourite scheduler e.g. cron, windows task scheduler etc. Remember to add `HOME` env variable, without it git command will fail
 
 example of cron script
 ```
