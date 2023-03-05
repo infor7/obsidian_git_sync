@@ -1,6 +1,6 @@
 # Quickstart
 Put folder sync in root of your obsidian repo that folder structure will look like that
-```
+```bash
 .
 ├── README.md
 ├── cooking
@@ -16,7 +16,7 @@ Put folder sync in root of your obsidian repo that folder structure will look li
 ```
 
 
-```
+```bash
 sudo apt update
 sudo apt install python3 make python3-pip git
 pip3 install virtualenv
@@ -28,7 +28,7 @@ make sync
 Add execution of script to your favourite scheduler e.g. cron, windows task scheduler etc. Remember to add `HOME` env variable, without it git command will fail
 
 example of cron script
-```
+```bash
 ➜  ~ cat /etc/crontab 
 # /etc/crontab: system-wide crontab
 # Unlike any other crontab you don't have to run the `crontab'
